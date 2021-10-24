@@ -20,3 +20,10 @@ For the potential around a cylinder, which can be constructed with a parallel fi
 ## Current function curves for a turbomachine
 The case for a turbomachine was simplified by its syemmtry, and then solved with both Finite Differences Method and Finite Element Method implemented from scratch in MATLAB.
 ![](turbomachine/img/fem_fdm_mesh.svg)
+
+## Panels method
+The 2D implementation of the panels method allows to compute the coefficient of pressure given the discretized geometry of the profile. The MATLAB script in the folder computes the NACA profile given its code and attempts to estimate said coefficient
+
+![](panels/img/cp2412.png)             |  ![](panels/img/profile.png)
+|:--:|:--:
+ Coefficient of pressure |  Discretization
