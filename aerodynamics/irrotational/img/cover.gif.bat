@@ -1,0 +1,1 @@
+magick convert -delay 100 -alpha set -dispose previous -loop 0 sorgente.png rankine.png ind.png sorgente_pozzo.png vortice.png doublet.png cover.gif

@@ -1,0 +1,1 @@
+magick convert -delay 100 -alpha set -dispose previous -loop 0 ivd_nrm.png ivd_est.png ivd_csp.png ivd.gif
